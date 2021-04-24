@@ -1,0 +1,145 @@
+label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .form-group {
+      font-size: 12px;
+  }
+  
+  .invalid-feedback {
+      font-size: 16px;
+       text-align: center;
+       background-color: #cc5b4b;
+       border: 1px solid black;
+  }
+.form-control {
+    font-size: 16px
+}
+
+  .card {
+    background-color: #ffffff;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 1px;
+    border: 1px solid #fff;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgb(255, 255, 255);
+  }
+
+.card-container.card {
+    max-width: 400px !important;
+    padding: 40px 40px;
+  }
+
+
+  .form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .form-control{
+      border: none;
+      background-color: #DADADA;
+      padding: 25px 35px;
+      border-radius: 8px;
+  }
+
+  .profile-img-card {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .alert {
+      background-color: #cc5b4b;
+      color: #fff;
+      margin: 5px 0;
+      border: none;
+      box-shadow: 0 2px 3px #542d20;
+  }
+
+
+  .forgot_password {
+      font-size: 12px;
+  
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0;
+  }
+
+  a:link{
+      text-decoration: none;
+      color: #DADADA;
+  }
+
+  .sign-in-text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #5C6477;
+      font-size: 15px;
+      
+  }
+  
+
+  .register_button{
+      padding: 10px;
+      background-color: #fff;
+      color: #000;
+      border: 1px solid black;
+      box-shadow:0 2px 3px #000;
+  }
+
+
+  .button_login {
+      padding: 10px;
+  }
+
+  .profile-img-card{
+      width: 20%;
+  }
+
+  #userIcon{
+    background-image:url(../images/user-solid.svg); 
+    background-repeat: no-repeat; 
+    background-position: 7px 17px;
+    
+}
+
+#passwordIcon{
+    background-image:url(../images/password.svg);
+    background-repeat: no-repeat;
+    background-position: 7px 17px;
+}
+
+
+#emailIcon{
+    background-image:url(../images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: 7px 17px;
+}
+
+.login_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+    color: #60A9F6;
+}
+
+.login_text h2 {
+    font-size: 26px;
+}
