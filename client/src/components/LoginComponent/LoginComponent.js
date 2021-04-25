@@ -106,7 +106,7 @@ class Login extends Component {
               </button>
             </div>
             <div className="forgot_password">
-              <span>I forgot my password. Click below to register</span>
+              <span>I Didn't Have an Account. Click below to register</span>
             </div>
 
             <div className="form-group_register">
